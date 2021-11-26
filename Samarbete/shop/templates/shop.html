@@ -1,7 +1,8 @@
 <!--
 Person 5, Här behövs läggas till så den extendar från 'mainsite.html'
 -->
-{% extends  %}
+{% extends 'mainsite.html' %}
+{% load static %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,7 +17,7 @@ Person 5, Här behövs läggas till så den extendar från 'mainsite.html'
 </head>
 <body>
     <!-- Person 5, Här behövs läggas till en början på ett block med namnet content -->
-    {% %}
+    {% block content %}
     <h2 style="text-align:center">Our items</h2>
     <div class="card">
         <!-- Person 6, Här behövs läggas till så att den laddar in bilden rätt från statiska mappen -->
